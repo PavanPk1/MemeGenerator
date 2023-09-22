@@ -1,6 +1,6 @@
-In this project, let's build a **Meme Generator** app by applying the concepts we have learned till now.
 
-### Refer to the image below:
+
+### Project Overview:
 
 <br/>
 <div style="text-align: center;">
@@ -8,7 +8,7 @@ In this project, let's build a **Meme Generator** app by applying the concepts w
 </div>
 <br/>
 
-### Design Files
+### Devices View
 
 <details>
 <summary>Click to view</summary>
@@ -25,49 +25,6 @@ In this project, let's build a **Meme Generator** app by applying the concepts w
 
 - Download dependencies by running `npm install`
 - Start up the app using `npm start`
-</details>
-
-### Completion Instructions
-
-<details>
-<summary>Functionality to be added</summary>
-<br/>
-
-The app must have the following functionalities
-
-- Initially, values in the inputs elements should be empty and the selected value in the select element should be the first item in the given fontSizesOptionsList
-- When non-empty values are provided for **Image Url**, **Top Text**, **Bottom Text**, and **Font Size** and the **Generate** button is clicked
-  - The Image URL that has been provided should be applied as a background-image for the generated meme
-  - The given Top and Bottom text values should be at the top and bottom of the generated meme
-  - The selected font size value should be applied for both top and bottom text of the generated meme
-
-</details>
-
-<details>
-
-<summary>Implementation Files</summary>
-<br/>
-
-Use these files to complete the implementation:
-
-- `src/App.js`
-- `src/components/MemeGenerator/index.js`
-- `src/components/MemeGenerator/styledComponents.js`
-
-</details>
-
-### Important Note
-
-<details>
-<summary>Click to view</summary>
-
-<br/>
-
-**The following instructions are required for the tests to pass**
-
-- The HTML container element for the generated meme should have `data-testid` attribute value as **meme**
-- When Styled Components are used, `data-testid` attribute should be used instead of `testid` attribute
-
 </details>
 
 ### Resources
@@ -101,9 +58,3 @@ Use these files to complete the implementation:
 
 </details>
 
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
